@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvviuI0M9Dc3iEXLh1nrCh-Q5lyWIWXLNxyg&usqp=CAU");
+}
+
+h1{
+  color: blue;
+  text-align: center;
+}
+
+div#memory_board {
+	background: salmon; /*rgb(128, 91, 91);*/
+	border: #000 1px solid;
+	width: 984px;
+	height: 650px;
+	padding: 24px;
+	margin: 0px auto;
+}
+
+div#memory_board > div {
+	background: url("../img/donde.jpg");
+	border: #000 2px solid;
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+h2, h3 {
+	text-align: center;
+	color: yellow;
+	
+}
+h2 {
+	margin-top: 40px;
+}
